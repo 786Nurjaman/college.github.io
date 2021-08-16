@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="./home.html"><img src="./logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Courses</h1>
+    </section>
+    <!-- -----------------Course ----------------- -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Dolore et erat elitr elitr tempor stet stet no, ipsum.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Duo ipsum sed et voluptua stet, consetetur rebum sed takimata at amet gubergren diam voluptua justo. Diam elitr amet est eos, invidunt takimata aliquyam elitr sed dolore. Invidunt sadipscing diam accusam lorem ut magna duo, et et invidunt lorem sit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Duo ipsum sed et voluptua stet, consetetur rebum sed takimata at amet gubergren diam voluptua justo. Diam elitr amet est eos, invidunt takimata aliquyam elitr sed dolore. Invidunt sadipscing diam accusam lorem ut magna duo, et et invidunt lorem sit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post  Graduation</h3>
+                <p>Duo ipsum sed et voluptua stet, consetetur rebum sed takimata at amet gubergren diam voluptua justo. Diam elitr amet est eos, invidunt takimata aliquyam elitr sed dolore. Invidunt sadipscing diam accusam lorem ut magna duo, et et invidunt lorem sit.</p>
+            </div>
+        </div>
+    </section>
+    
+   <!------------------- Footer ------------------------>
+   <section class="footer">
+       <h4>About Us</h4>
+       <p>Stet erat no stet amet stet ipsum et clita sanctus sea. Dolores lorem lorem erat nonumy stet tempor stet sed no, <br>ipsum invidunt sed invidunt  dolor accusam justo clita, est tempor ut et at. Kasd diam gubergren rebum kasd,.</p>
+        <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>copyright <i class="far fa-heart"></i> nurjamanshekh@gmail.com</p>
+    </section>
+   <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
